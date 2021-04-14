@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="https://kit.fontawesome.com/880d84603a.js" crossorigin="anonymous"></script>
+
+
+ 
+    <title>MyApp</title>
+ 
+  </head>
+  <body>
+ 
+ 
+	<!-- Start of first page: #one -->
+<div data-role="page" id="one">
+ 
+	<div data-role="header">
+		<h1>Multi-page</h1>
+	</div><!-- /header -->
+ 
+	<div role="main" style="background-color:#FACC2E;" class="ui-content">
+	<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+	<div role="main"> 
+ 
+         Username: <input type="text" id="username" name="username"></input>
+         Password: <input type="text" id="password" name="password"></input>
+         <button id="registerNew" class="btn btn-primary btn-lg btn-block">Register</button>
+         <button id="login" class="btn btn-primary btn-lg btn-block">Login</button>
+	</div>
+ 
+	</div><!-- /content -->
+ 
+<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+ 
+ 
+ 
+ 
+ 
+<!-- Start of customer page: #two -->
+<div data-role="page" id="customer" data-theme="a">
+
+		<div role="main" div style="background-color:#FACC2E;">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center;" class="ui-content">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/kfc/KFC_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">KFC</h1>
+		<img src="images/kfc/KFC_logo.jpg" class="img-circle" alt="KFC" width="260" height="145">
+		<h4 div style="color: white;">Fast Food Restaurant • Kentucky Chicken • Delivery $3.50 • No min. order</h4>
+		<button id="KfcCustomer" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/mcd/MCDONALDS_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">McDonald's</h1>
+		<img src="images/mcd/MCDONALDS_logo.jpg" class="img-circle" alt="MCD" width="260" height="145">
+		<h4 div style="color: white;">Fast Food Restaurant • American Burgers • Delivery $3.50 • No min. order</h4>
+		<button id="McDCustomer" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div> 
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/subway/SUBWAY_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Subway</h1>
+		<img src="images/subway/SUBWAY_logo.jpg" class="img-circle" alt="SUB" width="260" height="145">
+		<h4 div style="color: white;">Sandwiches and Wraps • Healthy Choices • Delivery $2.99 • No min. order</h4>
+		<button id="SubCustomer" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/bk/BK_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Burger King</h1>
+		<img src="images/bk/BK_logo.jpg" class="img-circle" alt="BK" width="260" height="145">
+		<h4 div style="color: white;">Fast Food Restaurant • American Burgers • Delivery $4.00 • No min. order</h4>
+		<button id="BkCustomer" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		</div>
+	<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+</div><!-- /page two -->
+</div>
+<!-- Start of cook page: #three -->
+<div data-role="page" id="cook" data-theme="a">
+ 
+	    <div data-role="header">
+		<h1>Staff</h1>
+	</div><!-- /header -->
+	
+		<div role="main" div style ="background-image: url('images/chef-bg.jpg');">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">		
+		<div role="main" div style="text-align: center;" class="ui-content">
+		<h2 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Please select a restaurant you would like to update stock on.</h2> 
+		</div> 
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;" class="ui-content">
+		<h1>KFC</h1>
+		<img src="images/kfc/KFC_logo.jpg" class="img-circle" alt="KFC" width="260" height="145">
+		<h4>Chicken burgers • Fried breast pieces • Fried leg pieces • Mini Fillets • Gravy</h4>
+		<button id="KfcCook" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;" class="ui-content">
+		<h1>McDonald's</h1>
+		<img src="images/mcd/MCDONALDS_logo.jpg" class="img-circle" alt="MCD" width="260" height="145">
+		<h4>Boxes of fries • BigMacs • McFlurrys • Cheeseburger • Chicken nuggets </h4>
+		<button id="McDCook" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;" class="ui-content">
+		<h1>Subway</h1>
+		<img src="images/subway/SUBWAY_logo.jpg" class="img-circle" alt="SUB" width="260" height="145">
+		<h4>Footlongs • Wraps • Cookies • Crisps • Sandwiches</h4>
+		<button id="SubCook" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;" class="ui-content">
+		<h1>Burger King</h1>
+		<img src="images/bk/BK_logo.jpg" class="img-circle" alt="BK" width="260" height="145">
+		<h4>Whopper burger • Cheesebites • Chicken royales • Onion Rings • Ben and Jerry's</h4>
+		<button id="BkCook" class="btn btn-primary btn-lg btn-block">Submit</button>
+		</div>
+		
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+	</div>
+	</div>
+
+<!-- Start of manager page: #four -->
+<div data-role="page" id="manager" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Adminstration</h1>
+	</div><!-- /header -->
+	<div role="main" div style ="background-image: url('images/manager-bg.jpg');">
+	<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+	<h1 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">This page contains confidential information and should only be operated by managers employed by JustEat.</h1>
+	<div role="main" class="ui-content">
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">View information orders that have been placed:<button onclick="getManagerData()">Submit</button></h4>
+	<h3 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Orders content: 
+	<div id="orderdata"> </div></h3>
+	</div>
+	<div role="main" class="ui-content">
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">View information about accounts that have been registered:<button onclick="getUserData()">Submit</button></h4>
+	<h2 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Account information content:
+	<div id="userdata"> </div></h2>
+	</div>
+	<div role="main" class="ui-content">
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">View information about products and stock:<button onclick="getStockData()">Submit</button></h4>
+	<h5 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Product content:
+	<div id="stockdata"> </div></h5>
+	</div>
+	<br></br>
+</div>
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+</div><!-- /page three -->
+
+<!-- CUSTOMER -->
+<!-- Kfc restaurant page: customer #1 -->
+<div data-role="page" id="kfc" div style="background-color: #FACC2E" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Kentucky Fried Chicken</h1>
+	</div><!-- /header -->
+ 
+	<div role="main">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/kfc/KFC_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">KFC</h1>
+		<img src="images/kfc/KFC_logo.jpg" class="img-circle" alt="KFC" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> KFC Corporation, based in Louisville, Kentucky, is one of the few brands in America that can boast a rich, decades-long history of success and innovation. It all started with one cook who created a soon-to-be world-famous recipe more than 70 years ago, a list of secret herbs and spices scratched out on the back of the door to his kitchen. That cook was Colonel Harland Sanders, of course, and now KFC is the world’s most popular chicken restaurant chain, specializing in that same Original Recipe® along with Extra Crispy™ chicken, home-style sides and buttermilk biscuits. We’re at over 23,000 KFC outlets and more than 140 countries and territories around the world. And you know what? There’s still a cook in a kitchen in every last one of them, freshly preparing delicious, complete family meals at affordable prices.</h4>
+ 
+	</div><!-- /content -->
+	
+	<script>
+	var myCart = [];
+
+	</script>
+	
+	<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+	<div class="ui-content">
+    <label for="select-native-2">Chicken burger</label>
+	<img src="images/kfc/KFC_chickenburger.jpg"  class="img-thumbnail" alt="kfcburger" width="360" height="100">
+   
+<select id="kfc_chickenburger_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button id="addtocart" onclick="addToCart('kfc_chickenburger_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Fried Breast piece</label>
+	<img src="images/kfc/KFC_breastpiece.jpg" class="img-thumbnail" alt="kfcbreast" width="360" height="100">
+   
+<select id="kfc_breast_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('kfc_breast_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Fried Leg piece</label>
+	<img src="images/kfc/KFC_legpiece.jpg" class="img-thumbnail" alt="kfcleg" width="360" height="100">
+   
+<select id="kfc_leg_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('kfc_leg_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Mini Fillet</label>
+	<img src="images/kfc/KFC_minifillet.jpg" class="img-thumbnail" alt="kfcburger" width="360" height="100">
+   
+<select id="kfc_fillet_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('kfc_fillet_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Gravy</label>
+	<img src="images/kfc/KFC_gravy.jpg" class="img-thumbnail" alt="kfcburger" width="360" height="100">
+   
+<select id="kfc_gravy_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('kfc_gravy_qty')"> Add To Cart </button>
+<button id="checkout">Checkout</button> 
+</div>
+	
+	
+	
+	</div>
+ 
+	<<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+	</div>
+</div><!-- /page end -->
+
+<script>
+function addToCart(itemName){
+    // finding out the name of the ITEM we are adding
+    var item = itemName;
+	console.log(item);
+    
+    // dynamically find out the qty
+	var qty = $('#'+item).children("option:selected").val();
+	console.log(qty);
+    
+    // search the cart and see if we already added
+    // the item. If we did, remove the old qty.
+
+    myCart.forEach(function(itemCurrent, index, array) {
+           
+           
+           
+           if(itemCurrent.includes(item)){
+              console.log("Removing previous reference to " + item);
+              myCart.pop(index);
+           }
+    });
+    
+    
+    // add the item to the cart
+    myCart.push(item + '-' + qty);
+    
+    alert(myCart);
+
+}
+</script>
+
+<!-- McDonalds restaurant page: customer #2 -->
+<div data-role="page" id="mcd" div style="background-color: #FACC2E" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>McDonald's</h1>
+	</div><!-- /header -->
+ 
+	<div role="main">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/mcd/MCDONALDS_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">McDonald's</h1>
+		<img src="images/mcd/MCDONALDS_logo.jpg" class="img-circle" alt="KFC" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> In 1917, 15-year-old Ray Kroc lied about his age to join the Red Cross as an ambulance driver, but the war ended before he completed his training. He then worked as a piano player, a paper cup salesman and a Multimixer salesman. In 1954, he visited a restaurant in San Bernardino, California that had purchased several Multimixers. There he found a small but successful restaurant run by brothers Dick and Mac McDonald, and was stunned by the effectiveness of their operation. The McDonald’s brothers produced a limited menu, concentrating on just a few items – burgers, fries and beverages – which allowed them to focus on quality and quick service.They were looking for a new franchising agent and Kroc saw an opportunity. In 1955, he founded McDonald’s System, Inc., a predecessor of the McDonald’s Corporation, and six years later bought the exclusive rights to the McDonald’s name and operating system. By 1958, McDonald’s had sold its 100 millionth hamburger.</h4>
+ 
+	</div><!-- /content -->
+	
+	<script>
+	var myCart = [];
+
+	</script>
+	
+	<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+	<div class="ui-content">
+    <label for="select-native-2">Fries</label>
+	<img src="images/mcd/MCDONALDS_fries.jpg"  class="img-thumbnail" alt="mcdfries" width="360" height="100">
+   
+<select id="mcd_fries_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button id="addtocart" onclick="addToCart('mcd_fries_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Big Mac</label>
+	<img src="images/mcd/MCDONALDS_bigmac.jpg" class="img-thumbnail" alt="mcdfries" width="360" height="100">
+   
+<select id="mcd_bigmac_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('mcd_bigmac_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">McFlurry</label>
+	<img src="images/mcd/MCDONALDS_mcflurry.jpg" class="img-thumbnail" alt="mcdflurry" width="360" height="100">
+   
+<select id="mcd_mcflurry_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('mcd_mcflurry_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Cheese Burger</label>
+	<img src="images/mcd/MCDONALDS_cheeseburger.jpg" class="img-thumbnail" alt="kfcburger" width="360" height="100">
+   
+<select id="mcd_cheeseburger_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('mcd_cheeseburger_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Chicken Nuggets</label>
+	<img src="images/mcd/MCDONALDS_nugget.jpg" class="img-thumbnail" alt="kfcburger" width="360" height="100">
+   
+<select id="mcd_nugget_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('mcd_nugget_qty')"> Add To Cart </button>
+<button id="checkout2">Checkout</button> 
+</div>
+	
+	</div>
+ 
+	<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+	</div>
+</div><!-- /page end -->
+
+<script>
+function addToCart(itemName){
+    // finding out the name of the ITEM we are adding
+    var item = itemName;
+	console.log(item);
+    
+    // dynamically find out the qty
+	var qty = $('#'+item).children("option:selected").val();
+	console.log(qty);
+    
+    // search the cart and see if we already added
+    // the item. If we did, remove the old qty.
+
+    myCart.forEach(function(itemCurrent, index, array) {
+           
+           
+           
+           if(itemCurrent.includes(item)){
+              console.log("Removing previous reference to " + item);
+              myCart.pop(index);
+           }
+    });
+    
+    
+    // add the item to the cart
+    myCart.push(item + '-' + qty);
+    
+    alert(myCart);
+
+}
+</script>
+
+<!-- Subway restaurant page: customer #3 -->
+<div data-role="page" id="sub" div style="background-color: #FACC2E" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Subway</h1>
+	</div><!-- /header -->
+ 
+	<div role="main">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/subway/SUBWAY_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Subway</h1>
+		<img src="images/subway/SUBWAY_logo.jpg" class="img-circle" alt="sublogo" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> Subway began in August 1965 as a partnership between Fred DeLuca, a 17-year-old who needed money for college, and Peter Buck, a family friend with a Ph.D. in physics. Buck loaned DeLuca $1,000 to open a takeout restaurant in Bridgeport, Connecticut. The restaurant was called “Pete’s Super Submarines” because submarine sandwiches were the menu specialty.In 1966 DeLuca and Buck incorporated a company called Doctor’s Associates. DeLuca later identified the doctor as Buck and the associate as himself. A second store was opened in 1966, and two years later the restaurant name was changed to Subway. After an expansion to 16 owned-and-operated outlets, the first franchised restaurants opened in 1974. By 1982 the company was claiming to be the largest “sub chain” in the United States. The first stores outside the United States opened in Bahrain in 1984. In the second decade of the 21st century, there were more than 40,000 Subway restaurants worldwide.</h4>
+ 
+	</div><!-- /content -->
+	
+	<script>
+	var myCart = [];
+
+	</script>
+	
+	<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+	<div class="ui-content">
+    <label for="select-native-2">Footlong</label>
+	<img src="images/subway/SUBWAY_footlong.jpg"  class="img-thumbnail" alt="subfootlong" width="360" height="100">
+   
+<select id="sub_footlong_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button id="addtocart" onclick="addToCart('sub_footlong_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Wrap</label>
+	<img src="images/subway/SUBWAY_wrap.jpg" class="img-thumbnail" alt="subwrap" width="360" height="100">
+   
+<select id="sub_wrap_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('sub_wrap_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Cookies</label>
+	<img src="images/subway/SUBWAY_cookie.jpg" class="img-thumbnail" alt="subcookie" width="360" height="100">
+   
+<select id="sub_cookie_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('sub_cookie_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Crisps</label>
+	<img src="images/subway/SUBWAY_crips.jpg" class="img-thumbnail" alt="subcrisps" width="360" height="100">
+   
+<select id="sub_crips_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('sub_crips_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Sandwich</label>
+	<img src="images/subway/SUBWAY_sandwich.jpg" class="img-thumbnail" alt="subsandwich" width="360" height="100">
+   
+<select id="sub_sandwich_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('sub_sandwich_qty')"> Add To Cart </button>
+<button id="checkout3">Checkout</button> 
+</div>
+	
+	</div>
+ 
+	<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+	</div>
+</div><!-- /page end -->
+
+<script>
+function addToCart(itemName){
+    // finding out the name of the ITEM we are adding
+    var item = itemName;
+	console.log(item);
+    
+    // dynamically find out the qty
+	var qty = $('#'+item).children("option:selected").val();
+	console.log(qty);
+    
+    // search the cart and see if we already added
+    // the item. If we did, remove the old qty.
+
+    myCart.forEach(function(itemCurrent, index, array) {
+           
+           
+           
+           if(itemCurrent.includes(item)){
+              console.log("Removing previous reference to " + item);
+              myCart.pop(index);
+           }
+    });
+    
+    
+    // add the item to the cart
+    myCart.push(item + '-' + qty);
+    
+    alert(myCart);
+
+}
+</script>
+
+<!-- Burger King restaurant page: customer #4 -->
+ <div data-role="page" id="bk" div style="background-color: #FACC2E" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Burger King</h1>
+	</div><!-- /header -->
+ 
+	<div role="main">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/bk/BK_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Burger King</h1>
+		<img src="images/bk/BK_logo.jpg" class="img-circle" alt="sublogo" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> McLamore and Edgerton started by purchasing one Insta-Burger King franchise in Miami in 1954. The growth of the Miami metropolitan area made it an excellent location for starting a new chain, but an adjustment had to be made to further improve on the Insta-Broiler machine. McLamore and Edgerton came up with a gas grill that they called a "flame broiler," and it eliminated the problems of the Insta-Broiler.By 1959 the Insta-Burger chain had grown, but the Kramer-Burns operation had run into financial trouble, and McLamore and Edgerton bought out the entire company to restructure and revitalize its operations. By 1961, the rechristened Burger King and its signature burger, the Whopper, had begun to spread across the United States.In 1967, the Pillsbury Company bought Burger King Corporation for $18 million, and with the baking company's capital behind it, by the late 1970s Burger King was able to grow to become America's second-largest burger chain, just behind McDonald's.</h4>
+ 
+	</div><!-- /content -->
+	
+	<script>
+	var myCart = [];
+
+	</script>
+	
+	<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+	<div class="ui-content">
+    <label for="select-native-2">Whopper</label>
+	<img src="images/bk/BK_whopper.jpg"  class="img-thumbnail" alt="whopper" width="360" height="100">
+   
+<select id="bk_whopper_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button id="addtocart" onclick="addToCart('bk_whopper_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Cheese bite</label>
+	<img src="images/bk/BK_cheesebite.jpg" class="img-thumbnail" alt="cheesebite" width="360" height="100">
+   
+<select id="bk_cheesebite_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('bk_cheesebite_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Chicken royale</label>
+	<img src="images/bk/BK_chickenroyale.jpg" class="img-thumbnail" alt="chickenroyale" width="360" height="100">
+   
+<select id="bk_chickenroyale_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('bk_chickenroyale_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Onion Rings</label>
+	<img src="images/bk/BK_onionring.jpg" class="img-thumbnail" alt="onion rings" width="360" height="100">
+   
+<select id="bk_onionring_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('bk_onionring_qty')"> Add To Cart </button>
+
+</div>
+
+<div class="ui-content" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">
+    <label for="select-native-2">Ben and Jerry's</label>
+	<img src="images/bk/BK_benandjerrys.jpg" class="img-thumbnail" alt="benandjerrys" width="360" height="100">
+   
+<select id="bk_benandjerrys_qty" name="select-native-2" id="select-native-2" data-mini="true">
+        <option value=""></option>
+		<option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+<button onclick="addToCart('bk_benandjerrys_qty')"> Add To Cart </button>
+<button id="checkout4">Checkout</button> 
+</div>
+	
+	</div>
+ 
+	<div data-role="footer" data-theme="a">
+		<h3><b>Follow Us:</b><br></br>
+	<a href="https://en-gb.facebook.com/justeat"><i class="social-icon fab fa-facebook-f fa-3x"></i></a>
+    <a href="https://twitter.com/JustEatUK"><i class="social-icon fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/JustEatUK/"><i class="social-icon fab fa-instagram fa-3x"></i></a><br></br>
+	<p>Copyright © 2020 JustEat.ie - All rights reserved.</p>
+	</div><!-- /footer -->
+	</div>
+</div><!-- /page end -->
+
+<script>
+function addToCart(itemName){
+    // finding out the name of the ITEM we are adding
+    var item = itemName;
+	console.log(item);
+    
+    // dynamically find out the qty
+	var qty = $('#'+item).children("option:selected").val();
+	console.log(qty);
+    
+    // search the cart and see if we already added
+    // the item. If we did, remove the old qty.
+
+    myCart.forEach(function(itemCurrent, index, array) {
+           
+           
+           
+           if(itemCurrent.includes(item)){
+              console.log("Removing previous reference to " + item);
+              myCart.pop(index);
+           }
+    });
+    
+    
+    // add the item to the cart
+    myCart.push(item + '-' + qty);
+    
+    alert(myCart);
+
+}
+</script>
+
+<!-- COOK -->
+<!-- Kfc restaurant page: cook #1 -->
+<div data-role="page" id="kfcCook" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Staff</h1>
+	</div><!-- /header -->
+	
+	<div role="main" div style ="background-image: url('images/chef-bg.jpg');">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/kfc/KFC_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">KFC</h1>
+		<img src="images/kfc/KFC_logo.jpg" class="img-circle" alt="KFC" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> Select the quantity of stock available and update</h4>
+ 
+	</div><!-- /content -->
+	
+	<div role="main" class="ui-content"<div>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Chicken burger<input type="text" id="kfc_chickenburger"/> <button onclick="update('kfc_chickenburger')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Fried breast piece<input type="text"/ id="kfc_breast"> <button onclick="update('kfc_breast')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Fried leg piece<input type="text"/ id="kfc_leg"> <button onclick="update('kfc_leg')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Mini fillet<input type="text"/ id="kfc_fillet"> <button onclick="update('kfc_fillet')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Gravy<input type="text"/ id="kfc_gravy"> <button onclick="update('kfc_gravy')">Update</button></h4>
+	
+	</div>
+ 
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+</div>
+
+<!-- McDonald's restaurant page: cook #2 -->
+<div data-role="page" id="mcdCook" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Staff</h1>
+	</div><!-- /header -->
+	
+	<div role="main" div style ="background-image: url('images/chef-bg.jpg');">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/mcd/MCDONALDS_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">McDonald's</h1>
+		<img src="images/mcd/MCDONALDS_logo.jpg" class="img-circle" alt="mcd" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> Select the quantity of stock available and update</h4>
+ 
+	</div><!-- /content -->
+	
+	<div role="main" class="ui-content"<div>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Fries<input type="text" id="mcd_fries"/> <button onclick="update('mcd_fries')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Big Mac<input type="text"/ id="mcd_bigmac"> <button onclick="update('mcd_bigmac')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">McFlurry<input type="text"/ id="mcd_mcflurry"> <button onclick="update('mcd_mcflurry')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Cheese Burger<input type="text"/ id="mcd_cheeseburger"> <button onclick="update('mcd_cheeseburger')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Chicken nuggets<input type="text"/ id="mcd_nugget"> <button onclick="update('mcd_nugget')">Update</button></h4>
+	
+	</div>
+ 
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+</div>
+
+<!-- Subway restaurant page: cook #3 -->
+<div data-role="page" id="subCook" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Staff</h1>
+	</div><!-- /header -->
+	
+	<div role="main" div style ="background-image: url('images/chef-bg.jpg');">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/subway/SUBWAY_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Subway</h1>
+		<img src="images/subway/SUBWAY_logo.jpg" class="img-circle" alt="sub" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> Select the quantity of stock available and update</h4>
+ 
+	</div><!-- /content -->
+	
+	<div role="main" class="ui-content"<div>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Footlong<input type="text" id="sub_footlong"/> <button onclick="update('sub_footlong')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Wrap<input type="text"/ id="sub_wrap"> <button onclick="update('sub_wrap')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Cookie<input type="text"/ id="sub_cookie"> <button onclick="update('sub_cookie')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Crisps<input type="text"/ id="sub_crips"> <button onclick="update('sub_crips')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Sandwich<input type="text"/ id="sub_sandwich"> <button onclick="update('sub_sandwich')">Update</button></h4>
+	
+	</div>
+ 
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+</div>
+
+<!-- Burger King restaurant page: cook #4 -->
+<div data-role="page" id="bkCook" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Staff</h1>
+	</div><!-- /header -->
+	
+	<div role="main" div style ="background-image: url('images/chef-bg.jpg');">
+		<img src="images/JUSTEAT_logo.jpg" alt="JUSTEAT" width="260" height="100">
+		
+		<div role="main" div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px; background-image: url('images/bk/BK_background.jpg');" class="ui-content">
+		<h1 div style="color: white;">Burger King</h1>
+		<img src="images/bk/BK_logo.jpg" class="img-circle" alt="sub" width="260" height="145">
+		<h4 style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;padding: 10px; border: 1px solid lightgray; margin: 10px; background-color: #FAFAFA"> Select the quantity of stock available and update</h4>
+ 
+	</div><!-- /content -->
+	
+	<div role="main" class="ui-content"<div>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Whopper<input type="text" id="bk_whopper"/> <button onclick="update('bk_whopper')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Cheese bite<input type="text"/ id="bk_cheesebite"> <button onclick="update('bk_cheesebite')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Chicken Royale<input type="text"/ id="bk_chickenroyale"> <button onclick="update('bk_chickenroyale')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Onion Ring<input type="text"/ id="bk_onionring"> <button onclick="update('bk_onionring')">Update</button></h4>
+	<h4 div style="text-align: center; background: ghostwhite; font-size: 20px; padding: 10px; border: 1px solid lightgray; margin: 10px;">Ben and Jerry's<input type="text"/ id="bk_benandjerrys"> <button onclick="update('bk_benandjerrys')">Update</button></h4>
+	
+	</div>
+ 
+	<div data-role="footer">
+		<h4>Only authorised personal must access the data of this page.</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+</div>
+
+<!-- Register page -->
+<div data-role="page" id="register" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Register page</h1>
+	</div><!-- /header -->
+ 
+	<div role="main" class="ui-content">
+		<h2>Register page...</h2>
+ 
+	</div><!-- /content -->
+ 
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+
+<!-- Save Order page -->
+<div data-role="page" id="saveOrder" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Save page</h1>
+	</div><!-- /header -->
+ 
+	<div role="main" class="ui-content">
+		<h2>Save page...</h2>
+ 
+	</div><!-- /content -->
+ 
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+
+ <!-- Update page -->
+<div data-role="page" id="updatedstock" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Update page</h1>
+	</div><!-- /header -->
+ 
+	<div role="main" class="ui-content">
+		<h2>Update page...</h2>
+ 
+	</div><!-- /content -->
+ 
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page end -->
+ 
+  <script>
+ 
+  $("#login").click(function(e) {
+	  console.log("clicked");
+ 
+       // get the username and the password
+      var un = $("#username").val();
+      var pw = $("#password").val();
+ 
+ 
+       // AJAX POST to the /login page 
+ 
+      $.post( "/login", { username: un, password: pw })
+      .done(function( data ) {
+            alert( "Data Loaded: " + data );
+ 
+            if(data.includes('customer')){
+                 // redirect to the customer page.
+                 window.location="/#customer";
+            }
+            else if(data.includes('cook')){
+				 window.location="/#cook";
+            }
+			else if(data.includes('manager')){
+				 window.location="/#manager";
+            }
+      });
+ 
+ 
+  });
+ 
+  $("#registerNew").click(function(e) {
+	  console.log("clicked");
+ 
+       // get the username and the password
+      var un = $("#username").val();
+      var pw = $("#password").val();
+ 
+ 
+       // AJAX POST to the /register page 
+ 
+      $.post( "/register", { username: un, password: pw })
+      .done(function( data ) {
+            alert( "Data Loaded: " + data );
+ 
+			if(data.includes('customer')){
+                 // redirect to the customer page.
+                 window.location="/#customer";
+            }
+      });
+ 
+ 
+  });
+  //checkout for kfc
+  $("#checkout").click(function(e) {
+ 
+    var items = myCart.toString();
+    alert(items);
+ 
+    $.post("/saveOrder", {items: items})
+    .done(function (data) {
+    alert("Data Loaded" + data);
+     
+     
+    });
+ 
+ 
+ 
+});
+  //checkout for mcd
+  $("#checkout2").click(function(e) {
+ 
+    var items = myCart.toString();
+    alert(items);
+ 
+    $.post("/saveOrder", {items: items})
+    .done(function (data) {
+    alert("Data Loaded" + data);
+     
+     
+    });
+ 
+ 
+ 
+});
+  //checkout for subway
+$("#checkout3").click(function(e) {
+ 
+    var items = myCart.toString();
+    alert(items);
+ 
+    $.post("/saveOrder", {items: items})
+    .done(function (data) {
+    alert("Data Loaded" + data);
+     
+     
+    });
+ 
+ 
+ 
+});
+
+  //checkout for burger king
+$("#checkout4").click(function(e) {
+ 
+    var items = myCart.toString();
+    alert(items);
+ 
+    $.post("/saveOrder", {items: items})
+    .done(function (data) {
+    alert("Data Loaded" + data);
+     
+     
+    });
+ 
+ 
+ 
+});
+
+//cook function to update stock value 
+function update(order){
+	alert(order);
+	var qty = $('#' + order).val(); 
+	alert(qty);
+	
+	$.post("/updatedstock", {order: order, qty:qty})
+    .done(function (data) {
+    alert("Data Loaded" + data);
+     
+     
+    });
+	}
+
+ //manager get data function
+function getManagerData(){
+    alert("clicked");
+     $.post( "/getData", function( data ) {
+      alert( "Data Loaded: " + data );
+       $('#orderdata').html(data);
+    });
+ 
+ }
+
+ //manager get user data function
+function getUserData(){
+    alert("clicked");
+     $.post( "/getDataUser", function( data ) {
+      alert( "Data Loaded: " + data );
+       $('#userdata').html(data);
+    });
+ 
+ //manager get stock data function
+ }
+ function getStockData(){
+    alert("clicked");
+     $.post( "/getDataStock", function( data ) {
+      alert( "Data Loaded: " + data );
+       $('#stockdata').html(data);
+    });
+ 
+ }
+
+  //submit buttons for the /customer page
+  $("#KfcCustomer").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#kfc";
+	  });
+  $("#McDCustomer").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#mcd";
+	  });
+  $("#SubCustomer").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#sub";
+	  });
+  $("#BkCustomer").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#bk";
+	  });
+	 
+   //submit buttons for the /cook page 
+  $("#KfcCook").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#kfcCook";
+	  });
+  $("#McDCook").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#mcdCook";
+	  });
+  $("#SubCook").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#subCook";
+	  });
+  $("#BkCook").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#bkCook";
+	  });
+	  
+  //submit buttons for the /manager page 
+  $("#KfcManager").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#kfcManager";
+	  });
+  $("#McDManager").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#mcdManager";
+	  });
+  $("#SubManager").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#subManager";
+	  });
+  $("#BkManager").click(function(e) {
+	  console.log("clicked");
+	  window.location="/#bkManager";
+	  });
+	  
+	  
+	  
+	  
+  </script>
+
+
